@@ -1,0 +1,88 @@
+[
+	{
+		"id": "file",
+		"children":
+		[
+		    {
+		        "id": "newFromTemplate",
+		        "caption": "New File From",
+		        "children":
+		        [
+		            {
+		                "caption": "HTML Tmpl",
+		                "command": "new_from_template","args": {"ext": "html"}
+		            },
+		            {
+		                "caption": "Javascript Tmpl",
+		                "command": "new_from_template","args": {"ext": "javascript"}
+		            },
+		            {
+		                "caption": "CSS Tmpl",
+		                "command": "new_from_template","args": {"ext": "css"}
+		            },
+		            {
+		                "caption": "PHP Tmpl",
+		                "command": "new_from_template","args": {"ext": "php"}
+		            },
+		            {
+		                "caption": "Pyton Tmpl",
+		                "command": "new_from_template","args": {"ext": "python"}
+		            },
+		            {
+		                "caption": "Java Tmpl",
+		                "command": "new_from_template","args": {"ext": "java"}
+		            },
+		            {
+		                "caption": "XML Tmpl",
+		                "command": "new_from_template","args": {"ext": "xml"}
+		            },
+		          	{
+		                "caption": "Bash Tmpl",
+		                "command": "new_from_template","args": {"ext": "bash"}
+		            },
+		            {
+		                "caption": "Default Tmpl",
+		                "command": "new_from_template","args": {"ext": "default"}
+		            }
+		        ]
+		    }
+		]
+		
+	},
+	{
+		"caption": "Preferences",
+		"id": "preferences",
+		"children": 
+		[
+			{
+				"caption": "Package Settings",
+				"id": "package-settings",
+				"mnemonic": "P",
+				"children":
+				[
+					{
+						"caption": "NewFromTemplate",
+						"children":
+						[
+							{
+								"caption": "Settings – Default",
+								"command": "open_file", "args":
+								{
+									"file": "${packages}/NewFromTemplate/NewFromTemplate.sublime-settings"
+								}
+							},
+							{
+								"caption": "Key Bindings – Default",
+							    "command": "open_file", "args":
+							    {
+							        "file": "${packages}/NewFromTemplate/Default (OSX).sublime-keymap",
+							        "platform": "OSX"
+							    }
+							}
+						]
+					}
+				]
+			}
+		]
+	}	
+]

@@ -1,0 +1,19 @@
+{
+    "author": {
+        "name": "muscle orange",
+        "email": "muscleorangee@gmail.com"
+    },
+    "syntax": {
+        "default": "Packages/HTML/HTML.tmLanguage",
+        "html": "Packages/HTML/HTML.tmLanguage",
+        "javascript": "Packages/JavaScript/JavaScript.tmLanguage",
+        "css": "Packages/CSS/CSS.tmLanguage",
+        "php": "Packages/PHP/PHP.tmLanguage",
+        "python": "Packages/Python/Python.tmLanguage",
+        "java": "Packages/Java/Java.tmLanguage",
+        "bash": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+        "xml": "Packages/XML/XML.tmLanguage"
+    },
+    "date_format": "%Y-%m-%d",
+    "encoding": "UTF-8"
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"keys": ["ctrl+alt+h"],
+		"command": "new_from_template","args": {"ext": "html"}
+	},
+	{
+		"keys": ["ctrl+alt+j"], 
+		"command": "new_from_template","args": {"ext": "java"}
+	},
+	{
+		"keys": ["ctrl+alt+shift+j"],
+		"command": "new_from_template","args": {"ext": "javascript"}
+	},
+	{
+		"keys": ["ctrl+alt+c"],
+		"command": "new_from_template","args": {"ext": "css"}
+	},
+	{
+		"keys": ["ctrl+alt+p"],
+		"command": "new_from_template","args": {"ext": "python"}
+	},
+	{
+		"keys": ["ctrl+alt+shift+p"],
+		"command": "new_from_template","args": {"ext": "php"}
+	},
+	{
+		"keys": ["ctrl+alt+b"],
+		"command": "new_from_template","args": {"ext": "bash"}
+	},
+]
